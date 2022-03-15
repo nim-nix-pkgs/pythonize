@@ -43,11 +43,11 @@
         "python-master": "python-master"
       },
       "locked": {
-        "lastModified": 1647068997,
-        "narHash": "sha256-fbuCdBYo2nkGdXYaz+bwH7zxSjHfabiplYKhHe1Ny5o=",
+        "lastModified": 1647113552,
+        "narHash": "sha256-A16aujYgR3U2FBZCBhOqXTYKfwciXdaTc7XoTpdF+so=",
         "owner": "nim-nix-pkgs",
         "repo": "python",
-        "rev": "7055f94e54b0bc86fe76ed8a227c4ef7c6846a79",
+        "rev": "a4ab34a9499a83ee1fa5dc0c3307bb6cdce2fa05",
         "type": "github"
       },
       "original": {
@@ -70,13 +70,20 @@
         "src-python-master": "src-python-master"
       },
       "locked": {
-        "narHash": "sha256-5sJ2k46qBkLom8c4EX+LWTp5/NhtSUy4u/aGkv+aPAA=",
-        "path": "./master",
-        "type": "path"
+        "dir": "master",
+        "lastModified": 1647113552,
+        "narHash": "sha256-A16aujYgR3U2FBZCBhOqXTYKfwciXdaTc7XoTpdF+so=",
+        "owner": "nim-nix-pkgs",
+        "repo": "python",
+        "rev": "a4ab34a9499a83ee1fa5dc0c3307bb6cdce2fa05",
+        "type": "github"
       },
       "original": {
-        "path": "./master",
-        "type": "path"
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "python",
+        "type": "github"
       }
     },
     "root": {
