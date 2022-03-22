@@ -9,13 +9,14 @@
   
   inputs.src-pythonize-master.flake = false;
   inputs.src-pythonize-master.owner = "marcoapintoo";
-  inputs.src-pythonize-master.ref   = "refs/heads/master";
-  inputs.src-pythonize-master.repo  = "nim-pythonize";
+  inputs.src-pythonize-master.ref   = "master";
+  inputs.src-pythonize-master.repo  = "nim-pythonize.git";
   inputs.src-pythonize-master.type  = "github";
   
   inputs."python".owner = "nim-nix-pkgs";
   inputs."python".ref   = "master";
   inputs."python".repo  = "python";
+  inputs."python".dir   = "";
   inputs."python".type  = "github";
   inputs."python".inputs.nixpkgs.follows = "nixpkgs";
   inputs."python".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
