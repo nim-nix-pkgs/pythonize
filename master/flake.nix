@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-pythonize-master.flake = false;
+  inputs.src-pythonize-master.ref   = "refs/heads/master";
   inputs.src-pythonize-master.owner = "marcoapintoo";
-  inputs.src-pythonize-master.ref   = "master";
   inputs.src-pythonize-master.repo  = "nim-pythonize.git";
   inputs.src-pythonize-master.type  = "github";
   
