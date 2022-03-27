@@ -11,6 +11,7 @@
   inputs.src-pythonize-master.ref   = "refs/heads/master";
   inputs.src-pythonize-master.owner = "marcoapintoo";
   inputs.src-pythonize-master.repo  = "nim-pythonize";
+  inputs.src-pythonize-master.dir   = "";
   inputs.src-pythonize-master.type  = "github";
   
   inputs."python".owner = "nim-nix-pkgs";
