@@ -35,20 +35,22 @@
     "python": {
       "inputs": {
         "flakeNimbleLib": [
+          "pythonize-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "pythonize-master",
           "nixpkgs"
         ],
         "src-python-master": "src-python-master"
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1651918336,
-        "narHash": "sha256-JjoZQKGnLd8RLM4GLBF8cvbB0uBdVMdTpYjljTe96QM=",
+        "lastModified": 1651555921,
+        "narHash": "sha256-MvYruCdzmyNqetRttvLJwBENMDGY3rQuCN0bdAQwZKA=",
         "owner": "nim-nix-pkgs",
         "repo": "python",
-        "rev": "b999051dab0886a7abc4c394eefcb75537c1bec3",
+        "rev": "7ef5956b97bdf2445e3d8daf78f95b5327384e12",
         "type": "github"
       },
       "original": {
@@ -59,12 +61,39 @@
         "type": "github"
       }
     },
+    "pythonize-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "python": "python",
+        "src-pythonize-master": "src-pythonize-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1651556824,
+        "narHash": "sha256-bJe1DoiCc8z9cwxWqqgc4NCgKgVD7cf2MdIcVpjFsaQ=",
+        "owner": "nim-nix-pkgs",
+        "repo": "pythonize",
+        "rev": "ec54191434fbfc804cd74341d625a5a80c21e6a3",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "pythonize",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "python": "python",
-        "src-pythonize-master": "src-pythonize-master"
+        "pythonize-master": "pythonize-master"
       }
     },
     "src-python-master": {
