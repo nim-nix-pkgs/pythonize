@@ -46,11 +46,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1651918336,
-        "narHash": "sha256-JjoZQKGnLd8RLM4GLBF8cvbB0uBdVMdTpYjljTe96QM=",
+        "lastModified": 1652391473,
+        "narHash": "sha256-JIVt+cgxA+wn8NJ+O6twMoYiW6f81siV+fAdpA25g4I=",
         "owner": "nim-nix-pkgs",
         "repo": "python",
-        "rev": "b999051dab0886a7abc4c394eefcb75537c1bec3",
+        "rev": "4677b8d3c87c895fa54fdd21bf89eff9730b8f1d",
         "type": "github"
       },
       "original": {
@@ -74,11 +74,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1651919123,
-        "narHash": "sha256-O9prSwNIaux0cC2Cl8wNlcB9t4ZL5E62obVLucQ7G9k=",
+        "lastModified": 1652392282,
+        "narHash": "sha256-rmV036ffteni6f5TG91LqaaxQnUzrv+Tu1br3CSAzTo=",
         "owner": "nim-nix-pkgs",
         "repo": "pythonize",
-        "rev": "2bfafc06f4400744de4c9413f0bea0070d465af1",
+        "rev": "8aa526b411ccbd3d72d038eb81f46ece8519f8f4",
         "type": "github"
       },
       "original": {
